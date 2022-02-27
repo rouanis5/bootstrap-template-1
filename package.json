@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 1234"
+    "start": "autoreload-server -w '**/**.{html,css,js}' -p 1234"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "simple-autoreload-server": "^0.2.15"
   }
 }
